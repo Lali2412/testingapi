@@ -62,4 +62,5 @@ test('API GET Request', async ({ request }) => {
 
      console.log(await response.json());
      console.log(await response.json());
+     console.log(await response.json());
 })
