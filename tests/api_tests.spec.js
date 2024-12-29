@@ -61,4 +61,5 @@ test('API GET Request', async ({ request }) => {
      expect(text).toContain('Janet')
 
      console.log(await response.json());
+     console.log(await response.json());
 })
