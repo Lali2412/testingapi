@@ -64,3 +64,13 @@ test('API GET Request', async ({ request }) => {
      console.log(await response.json());
      console.log(await response.json());
 })
+
+test('API Delete Request', async ({ request }) => {
+
+
+     const response = await request.delete('https://reqres.in/api/users')
+
+     expect(response.status()).toBe(204);
+
+
+} )
